@@ -10,14 +10,15 @@ public class U1T2 {
         boolean thing = true;
         if (thing) {
         // this is an if statement
-        String playerName = "Smith"; }   
+        System.out.print(" "); }   
         else {
-        String playerName = "John";
+        System.out.print(" ");
 }
         apples = apples-2;
         applesHalved = apples/2;
         String playerName = "Thing";
     System.out.println("Name: " + playerName);
     System.out.println("Apples eaten, " + apples);
+    System.out.println("Apples halved: " + applesHalved);
     }
 }
