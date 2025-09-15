@@ -1,21 +1,23 @@
-/* this is a comment
-it spans two lines */
+/*this is a comment
+it spans two line */
+
 
 public class U1T2 {
     public static void main(String[] args) {
-        apples = 7
-        double applesHalved
-        applesHalved = apples/2
-        thing = true
+        int apples = 7;
+        double applesHalved;
+        applesHalved = apples/2;
+        boolean thing = true;
         if (thing) {
         // this is an if statement
-        playerName = "Smith"
-}   else {
-        playerName = "John"
+        String playerName = "Smith"; }   
+        else {
+        String playerName = "John";
 }
-        final apples = apples-2
-        final applesHalves = apples/2
-    System.out.println("Name: " + John)
-    System.out.println("Apples eaten, " + apples)
+        apples = apples-2;
+        applesHalved = apples/2;
+        String playerName = "Thing";
+    System.out.println("Name: " + playerName);
+    System.out.println("Apples eaten, " + apples);
     }
 }
