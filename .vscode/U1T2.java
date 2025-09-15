@@ -17,9 +17,5 @@ public class U1T2 {
         final applesHalves = apples/2
     System.out.println("Name: " + John)
     System.out.println("Apples eaten, " + apples)
-
-
-    
-}
     }
 }
