@@ -1,11 +1,10 @@
 public class U2T3 {
     public static void main(String[] args) {
-        int x = 5;
-        int y = 10;
-        x = y;
-        y = 20;
-        int z = x + y;
-        x = 7;
-        System.out.println("x: " + x + ", y: " + y + " ,z: " + z);
-    }
+        int p = 3 / (5 % 3);
+        int q = (2 + 4) * 3;
+        double r = 2 * p + q;
+        System.out.println("p = " + p);
+        System.out.println("q = " + q);
+        System.out.println("r = " + r);
+     }
 }
