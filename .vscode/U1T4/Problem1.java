@@ -10,10 +10,13 @@ public class Problem1 {
         System.out.println("Welcome, " + name);
         System.out.print("Please enter an integer: ");
         int int1 = scan.nextInt();
+        scan.nextLine();
         System.out.print("Please enter another integer: ");
         int int2 = scan.nextInt();
+        scan.nextLine();
         System.out.print("Please enter the third integer: ");
         int int3 = scan.nextInt();
+        scan.nextLine();
         double average = (int1+int2+int3)/3.0 ;
         System.out.println("The average of " + int1 + " " + int2 + " " +  int3 + " is " + average);
         scan.close();
