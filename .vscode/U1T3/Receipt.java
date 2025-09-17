@@ -1,3 +1,4 @@
+package U1T3;
 public class Receipt {
     public static void main(String[] args) {
         String customerName = "Stacey" ;
