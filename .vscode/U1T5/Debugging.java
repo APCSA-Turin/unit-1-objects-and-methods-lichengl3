@@ -16,6 +16,7 @@ public class Debugging {
 
     System.out.println("The quotient is " + quotient);
     System.out.println("The sum is " + sum);
+    scan.close();
   }
 }
 
