@@ -7,7 +7,7 @@ public class Letter {
     // constructor; since there are no instance variables to initialize,
     // this constructor has no parameters and has an empty body: { }
     public Letter(String sender) { 
-        sender = this.sender;
+        this.sender = sender;
     }
     
     /* add your writeLetter method here: TO BE IMPLEMENTED IN #4 */
@@ -15,6 +15,7 @@ public class Letter {
         greeting(name);
         specialMessage();
         closing();
+        send();
     }
     
     public void greeting(String name) {
@@ -27,5 +28,8 @@ public class Letter {
 
     public void closing() {
         System.out.println("See you later!");
+    }
+    public void send() {
+        System.out.println("From, " + sender);
     }
 }

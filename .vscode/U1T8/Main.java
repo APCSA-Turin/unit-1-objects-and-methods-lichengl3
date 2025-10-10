@@ -4,7 +4,7 @@ public class Main {
    public static void main(String[] args) {
         Letter myLetter = new Letter("big man");
 
-        myLetter.writeLetter("");
+        myLetter.writeLetter("big man");
     }
 }
 
