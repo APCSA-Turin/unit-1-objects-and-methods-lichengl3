@@ -6,9 +6,9 @@ public class Game {
     private int players;
     private int score;
 
-    public Game(String newgameName, int newPlayers) {
-        gameName = newgameName;
-        players = newPlayers;
+    public Game(String gameName, int players) {
+        this.gameName = gameName;
+        this.players = players;
         score = 0;
     }
 
