@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CustomStringMethodsRunner",
+            "request": "launch",
+            "mainClass": "U1T11.U1T11Lab3.CustomStringMethodsRunner",
+            "projectName": "unit-1-objects-and-methods-lichengl3_46eac93e"
+        },
+        {
+            "type": "java",
             "name": "Debugging",
             "request": "launch",
             "mainClass": "U1T5.Debugging",
