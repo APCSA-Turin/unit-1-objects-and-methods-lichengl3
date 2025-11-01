@@ -3,7 +3,5 @@ public class LuckyNumberRunner {
         LuckyNumbers lottery = new LuckyNumbers();
         String luckyNums = lottery.getLuckyNumbers();
         System.out.println(luckyNums);
-
-        System.out.println(lottery.randomIntegerBetween(1, 25));
     }
 }

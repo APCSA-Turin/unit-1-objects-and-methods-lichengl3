@@ -11,7 +11,7 @@ public class LuckyNumbers {
 
     public String getLuckyNumbers() {
         ArrayList<String> luckyNumbers = new ArrayList<>();
-        for (int i = 0; i == 5; i++) {
+        for (int i = 0; i < 5; i++) {
             luckyNumbers.add(Integer.toString(randomIntegerBetween(1, 65)));
         }
         luckyNumbers.add(Integer.toString(randomIntegerBetween(1, 30)));
